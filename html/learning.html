@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+
+	<div class="sidenav">
+		<a>Chao Guo</a>
+		<span class="position"><a href="https://www.pitt.edu/">University of Pittsburgh</a></span>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			<li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+			<li><a href="education.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
+			<li><a href="experience.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Experience</a></li>
+			<li><a href="learning.html"><i class="fa fa-book" aria-hidden="true"></i> Current Learning</a></li>
+			<li><a href="skill.html"><i class="fa fa-certificate" aria-hidden="true"></i> Skills</a></li>
+		</ul>
+	</div>
+
+  <h3>I'm current learning ...</h3>
+
+    <div class="content" id="learning">
+        <div>
+            <a class="icon" onclick = "javascript:document.getElementById('content').src='web.html'">
+            <span class="caption">Web Technologies And Standards</span>
+        </a>
+        </div>
+        <div>
+            <a class="icon" onclick = "javascript:document.getElementById('content').src='datamining.html'">
+            <span class="caption">Data Mining</span>
+        </a>
+        </div>
+        <div>
+            <a class="icon" onclick = "javascript:document.getElementById('content').src='ir.html'">
+            <span class="caption">Information Storage And Retrieval</span>
+        </a>
+        </div>
+        <iframe id="content" src="web.html" style="width: 500px; height: 800px;"/>
+    </div>
+    
+</body>
